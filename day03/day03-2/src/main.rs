@@ -33,6 +33,7 @@ fn main() {
             let mut temp = e.split("").collect::<Vec<&str>>();
             temp.remove(0);
             temp.remove(temp.len() - 1);
+            // trim start and end
             temp
         })
         .collect::<Vec<Vec<&str>>>();
